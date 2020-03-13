@@ -1,22 +1,22 @@
 class Vehicle {
-  static count=0;   //<--Something like this
+  static count = 0; //<--Something like this
   constructor() {
     Vehicle.count++;
   }
 }
 
 class Bike extends Vehicle {
-  static count=0;
+  static count = 0;
   constructor() {
-    super()
+    super();
     Bike.count++;
   }
 }
 
 class Car extends Vehicle {
-  static count=0;
+  static count = 0;
   constructor() {
-    super()
+    super();
     Car.count++;
   }
 }
